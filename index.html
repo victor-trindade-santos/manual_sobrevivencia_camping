@@ -5,20 +5,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+  
 </head>
 
 <body>
-    <br><br>
-    <h1>Explore e acampe em qualquer lugar!</h1>
-    <br><br>
-    <hr>
-        <div id="resources">
-            <div id="first"><h3>Aprenda a montar um acampamento</h3></div>
-            <div id="second"><h3>Descubra como encontrar e coletar alimentos</h3></div>
-            <div id="third"><h3>Conheça os equipamentos obrigatórios para sobreviver na mata</h3></div>
-        </div>
+    <center>
+    <header id="cabeçalho"><br><img src="Image/forest.png"><br>Manual de Exploração e Camping<br><br></header>
+    </center>
+    <div class="container">
+        <div class="gradient"></div>
+        <div class="content"><h1>Explore e acampe em qualquer lugar!</h1></div>
+    </div>
     
-        <!--Tags para Textos
+    <br><br>
+        <section id="recursos">
+        <div id="resources" class="resources">
+            <div id="first" class="boxR1">
+                <div id="img_first" class="mg_box_resources">
+                    <img src="Image/tent (1).png" class="img_resources" style="vertical-align:middle">
+                </div>
+            </div>
+            <!--icone de barraca-->
+            <div id="second" class="boxR2">
+                <div id="img_second" class="img_box_resources">
+                    <img src="Image/fish.png" class="img_resources" style="vertical-align:middle">
+                </div>
+            </div><!--pernil-->
+            <div id="third" class="boxR3">
+                <div id="img_third" class="img_box_resources">
+                    <img src="Image/compass.png" class="img_resources" style="vertical-align:middle">
+                </div>
+            </div><!--ferramentas-->
+        </div>
+        <div class="text_resources"><h3 >Aprenda a montar um acampamento</h3></div>
+        <div class="text_resources"><h3 >Descubra como encontrar e coletar alimentos</h3></div>
+        <div class="text_resources"><h3 >Conheça os equipamentos obrigatórios para sobreviver na mata</h3></div>
+        </section>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <section id="depoimentos">
+    <h1>Conheça as pessoas que aprovaram o manual!</h1>
+    <br><br><br>    
+    <div id="testimonials_image">
+        <div id="img_first" class="img_box_resources">
+            <img src="Image/Pablo_Marçal.png" class="img_resources1" style="vertical-align:middle">
+        </div>
+        <div id="img_second" class="img_box_resources">
+            <img src="Image/Marcelo_VIP.jpg" class="img_resources1" style="vertical-align:middle">
+        </div>
+        <div id="img_third" class="img_box_resources">
+            <img src="Image/Mike_Baguncinha.jpg" class="img_resources1" style="vertical-align:middle">
+        </div>
+    </div>
+    <div id="testimonials_text" class="testimonials">
+        <div id="fist_testimonials" class="fist_testimonials"><h3>Pablo Marçal</h3></div>
+        <div id="second_testimonials" class="second_testimonials"><h3>Marcelo VIP</h3></div>
+        <div id="third_testimonials" class="third_testimonials"><h3>Mike Baguncinha</h3></div>
+    </div>
+    </section>
+    <br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br>
+    
+    <section id="formulario_de_contato">
+    <div class="container_form">
+        
+        <div class="gradient"></div>
+        
+        <div class="container_child">
+            <div><h1>Garanta já o seu manual de sobrevivência, gratuito e completo entrando em contato conosco!</h1></div>
+            <div class="form_box_image">
+                <img src="Image/ebook.png" class="img_resources" style="vertical-align:middle">
+            </div>
+            <div class="form_box_content">
+                <form action="/sales_funnel">
+                    <br><br>
+                    <label for="name">Nome:</label>
+                    <input type="name" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone_number">Telefone</label>
+                    <input type="number" id="phone_number" name="phone_number" required>
+                    <br><br>
+
+                    <label for="terms">Aceitar termos e condições</label>
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <br><br>
+                    
+                    <input type="submit" name="Enviar">
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+    <!--Tags para Textos
             <p> - parágrafo
             <strong> - negrito
             <em> - itálico
@@ -41,5 +123,5 @@
             <time> define data ou hora        
         -->    
 </body>
-
+<footer id="rodapé">Desenvolvido por Victor Trindade dos Santos<br>@2024 - Victor Trindade MKT <br>Todos os direitos reservados</footer>
 </html>
